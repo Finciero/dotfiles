@@ -9,7 +9,7 @@
     "no-throw-literal": 2,
     "radix": 1,
     "vars-on-top": 1,
-    "sort-vars": 1,
+    "sort-vars": 0,
     "indent": [2, 2],
     "brace-style": [2, "1tbs"],
     "comma-style": 1,
