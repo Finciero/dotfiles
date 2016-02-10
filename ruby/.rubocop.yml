@@ -1,0 +1,40 @@
+AllCops:
+  TargetRubyVersion: 2.3
+
+Rails:
+  Enabled: true
+
+Metrics/LineLength:
+  AllowHeredoc: true
+  AllowURI: true
+  URISchemes: http, https
+  Max: 90
+
+Style/Documentation:
+  Enabled: false
+
+Style/Send:
+  Enabled: true
+
+Style/SymbolArray:
+  Enabled: false
+
+Lint/LiteralInInterpolation:
+  AutoCorrect: true
+
+AccessorMethodName:
+  Enabled: true
+
+CollectionMethods:
+  Enabled: true
+  PreferredMethods:
+    find: detect
+    inject: reduce
+    collect: map
+    find_all: select
+
+Style/DotPosition:
+  EnforcedStyle: leading
+
+Metrics/MethodLength:
+  Max: 15
