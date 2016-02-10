@@ -1,0 +1,21 @@
+{
+ "extends": "airbnb",
+  "rules": {
+    "comma-dangle": [1, "never"],
+    "one-var": [2, {
+      "const": "never",
+      "let": "always"
+    }],
+    "no-multiple-empty-lines": [1, {
+      "max": 1,
+      "maxEOF": 1
+    }],
+    "strict": [2, "global"],
+    "no-param-reassign": [2, {
+      "props": false
+    }],
+    "brace-style": [2, "1tbs", {
+      "allowSingleLine": true
+    }]
+  }
+}
