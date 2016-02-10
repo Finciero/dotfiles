@@ -68,7 +68,7 @@ function foo(args) {
 });
 ```
 
-- We use special rultes for using the `let` variable declaration. All variables declared with let must be declared at the beginning of the scope.
+- We use special rules for using the `let` variable declaration. All variables declared with `let` must be declared at the beginning of the scope.
 
 ```javascript
 
