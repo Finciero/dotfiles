@@ -16,6 +16,9 @@ Style/Documentation:
 Style/Send:
   Enabled: true
 
+TrailingComma:
+ EnforcedStyleForMultiline: comma
+
 Style/SymbolArray:
   Enabled: false
 
