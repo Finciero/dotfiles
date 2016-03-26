@@ -31,6 +31,7 @@
     "brace-style": [2, "1tbs", {
       "allowSingleLine": true
     }],
+    "space-before-function-paren": [2, "always"],
     "flow-vars/define-flow-type": 1,
     "flow-vars/use-flow-type": 1
   }
