@@ -16,7 +16,10 @@ Style/Documentation:
 Style/Send:
   Enabled: true
 
-TrailingComma:
+Style/TrailingCommaInLiteral:
+  EnforcedStyleForMultiline: comma
+
+Style/TrailingCommaInArguments:
  EnforcedStyleForMultiline: comma
 
 Style/SymbolArray:
