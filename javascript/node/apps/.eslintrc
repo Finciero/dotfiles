@@ -1,6 +1,6 @@
 {
- "parser": "babel-eslint",
- "extends": "airbnb/base",
+ "parser": "babel-eslint", // Remove this line if babel is no needed
+ "extends": "airbnb-base",
   "rules": {
     "semi" : [2, "never"],
     "one-var": [2, {
