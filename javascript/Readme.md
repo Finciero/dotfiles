@@ -17,7 +17,7 @@ npm install --save-dev eslint-config-airbnb eslint-plugin-react eslint
 > in your project.
 
 ```bash
-npm install -g eslint-config-airbnb eslint-plugin-react eslint
+npm install -g eslint-cli eslint-plugin-import
 ```
 
 Rules
