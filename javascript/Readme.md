@@ -17,38 +17,11 @@ npm install --save-dev eslint-config-airbnb eslint-plugin-react eslint
 > in your project.
 
 ```bash
-npm install -g eslint-config-airbnb eslint-plugin-react eslint
+npm install -g eslint-cli eslint-plugin-import
 ```
 
 Rules
 -----
-
-- Avoid using trailing commma. eslint: [`comma-dangle`](http://eslint.org/docs/rules/comma-dangle.html).
-
-```javascript
-// bad
-const hero = {
-  firstName: 'Dana',
-  lastName: 'Scully',
-};
-
-const heroes = [
-  'Batman',
-  'Superman',
-];
-
-// good
-const hero = {
-  firstName: 'Dana',
-  lastName: 'Scully'
-};
-
-const heroes = [
-  'Batman',
-  'Superman'
-];
-
-```
 
 - Avoid declaring function that receive more than 3 arguments. If you need to
   pass more arguments, pass them as an object.
